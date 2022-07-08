@@ -4,7 +4,7 @@ body {
   
 .container {
     display: flex;
-    gap: 15px;
+    gap: 8px;
 }
   
 .json, .csv {
@@ -12,10 +12,18 @@ body {
 }
   
 textarea {
-    width: 100%;
-    height: 570px;
-    padding: 20px;
+    width: 90%;
+    height: 560px;
+    padding: 25px;
     box-sizing: border-box;
     font-size: 20px;
     background-color: #49fc03;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0.6, 0.8);
+}
+
+.bConvert {
+    cursor: pointer;
+
 }

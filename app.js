@@ -33,6 +33,6 @@ const bConvert = document.querySelector("#bConvert");
             const text = values.map((v) => v.join(",")).join("\n");
             csvForm.value = text;
         } else {
-            alert("No es formato JSON");
+            alert("Error, this is not JSON");
         }
     });
